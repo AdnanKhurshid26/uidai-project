@@ -6,22 +6,14 @@
   box-sizing: border-box;
 }
 
-:root {
-  --app-height: 100%;
-}
-
 html,
 body {
   padding: 0;
   margin: 0;
-  overflow-x: hidden;
+
   width: 100vw;
   height: 100vh;
   font-family: "Poppins";
-
-  @media not all and (hover: hover) {
-    height: var(--app-height);
-  }
 }
 
 header {
