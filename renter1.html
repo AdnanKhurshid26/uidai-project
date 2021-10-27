@@ -16,7 +16,7 @@
     <title>Document</title>
 </head>
 
-<body>
+<body class="vh100">
     <header>
         <div class="logos">
             <div class="uidai-logo">
@@ -32,29 +32,17 @@
     </header>
 
     <main>
-        <p class="top-text"><b>Snehanjan Roy</b> someone asked for this permission to use your address. Please verify
-            the
-            person</p>
-        <div class="renter-deatils">
-            <div class="name-field grid-field">
-                <p><b>Name</b></p>
-                <p>Adnan Khurshid</p>
-            </div>
-            <div class="address-field grid-field">
-                <p><b>Address</b></p>
-                <p>This is a sample address of this imaginary person which is very very good</p>
-            </div>
-            <div class="photo-field grid-field">
-                <p><b>Photo</b></p>
-                <img src="img/renter-photo.png" alt="">
-            </div>
+        <div class="input-field aadhar-field">
+            <label for="">Enter your 12 digit Aadhar number</label>
+            <input type=" text" name="" id="" />
         </div>
-        <div class="declaration">
-            <input type="checkbox" name="" id="" required>
-            I hereby declare that I know this person and I am allowing him to use my address with my consent. I take
-            full responsibility of any mishap
+        <div class="input-field captcha-field">
+            <label for="">Enter the Captcha</label>
+            <input type="text" name="" id="" />
+            <div class="captcha">CApt6a</div>
         </div>
-        <button type="submit" class="btn-primary login-btn">VERIFY</button>
+
+        <button class="btn-primary login-btn">LOG IN</button>
     </main>
 
     <script src="js/script.js"></script>
