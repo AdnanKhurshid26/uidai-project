@@ -311,3 +311,10 @@ p {
     text-align: center;
   }
 }
+
+.setting-100vh {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  min-height: unset;
+}
